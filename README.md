@@ -5,7 +5,9 @@ SandBox
 
 Documents
 -------------------
--	Env Guild		Environment Build Guide for Developing SandBox
+-	/doc/Env Guild.doc
+
+	Environment Build Guide for Developing SandBox
 
 </br>
 
