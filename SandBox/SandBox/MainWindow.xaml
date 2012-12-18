@@ -1,0 +1,12 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="SandBox.MainWindow"
+	x:Name="Window"
+	Title="SandBox"
+	WindowStyle="None"
+	AllowsTransparency="True"
+	Width="800" Height="600">
+
+	<Grid x:Name="LayoutRoot"/>
+</Window>
