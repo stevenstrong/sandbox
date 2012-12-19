@@ -6,7 +6,7 @@
 	Title="SandBox"
 	WindowStyle="None"
 	AllowsTransparency="True"
-	Width="65" Height="25"
+	Width="800" Height="600"
 	MouseLeftButtonDown="DragWindow">
 
 	<Grid x:Name="LayoutRoot">
