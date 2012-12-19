@@ -6,7 +6,16 @@
 	Title="SandBox"
 	WindowStyle="None"
 	AllowsTransparency="True"
-	Width="800" Height="600">
+	Width="800" Height="600"
+	MouseLeftButtonDown="DragWindow">
 
-	<Grid x:Name="LayoutRoot"/>
+	<Grid x:Name="LayoutRoot">
+		<Border x:Name="Window_Border" BorderThickness="0.5" BorderBrush="Gray" Background="White" Height="Auto">
+			<MediaElement HorizontalAlignment="Right" Height="76" Margin="0,109.5,237.5,0" VerticalAlignment="Top" Width="91"/>
+		</Border>
+		<Button x:Name="Button_Close" Width="24"  Height="24" Margin="0,0.5,0.5,0"
+			HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0"
+			Style="{DynamicResource ButtonStyle_Close}" 
+			Click="CloseWindow" />
+	</Grid>
 </Window>

@@ -23,5 +23,17 @@ namespace SandBox
 
 			// 在此点下面插入创建对象所需的代码。
 		}
+
+		public void CloseWindow( object sender, RoutedEventArgs args )
+		{
+			this.Close();
+		}
+
+		public void DragWindow(object sender, MouseButtonEventArgs args)
+		{
+			this.DragMove();
+		}
+
 	}
+	
 }
